@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="TestesQualidadeiOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CURSO:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KPI-PZ-7kq">
+                                <rect key="frame" x="16" y="101" width="374" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titulo:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3la-3L-Q4J">
+                                <rect key="frame" x="16.000000000000004" y="141" width="47.333333333333343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Nome do curso" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0P-uK-MMg">
+                                <rect key="frame" x="65.333333333333343" y="141" width="324.66666666666663" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Duração:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nsa-5B-NkW">
+                                <rect key="frame" x="16" y="178" width="68.666666666666671" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duração do curso" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bu6-fY-tHQ">
+                                <rect key="frame" x="86.666666666666657" y="178" width="303.33333333333337" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pak-F9-7rT">
+                                <rect key="frame" x="122" y="404.66666666666669" width="146" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Trocar de Curso"/>
+                                <connections>
+                                    <action selector="changeCourseAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dkj-ug-fq5"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Contato:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y76-9X-k46">
+                                <rect key="frame" x="16" y="215" width="65.666666666666671" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contato do curso" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7O-W5-SzB">
+                                <rect key="frame" x="83.666666666666657" y="215" width="306.33333333333337" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="h0P-uK-MMg" firstAttribute="leading" secondItem="3la-3L-Q4J" secondAttribute="trailing" constant="2" id="1oG-hr-T2D"/>
+                            <constraint firstItem="Pak-F9-7rT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2Em-fP-bTz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="h0P-uK-MMg" secondAttribute="trailing" id="BqS-qQ-PEv"/>
+                            <constraint firstItem="bu6-fY-tHQ" firstAttribute="top" secondItem="h0P-uK-MMg" secondAttribute="bottom" constant="16" id="Bv6-PA-9Ii"/>
+                            <constraint firstItem="y76-9X-k46" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Fs8-ux-WTV"/>
+                            <constraint firstItem="y76-9X-k46" firstAttribute="top" secondItem="Nsa-5B-NkW" secondAttribute="bottom" constant="16" id="HWM-qN-n0S"/>
+                            <constraint firstItem="KPI-PZ-7kq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="KM6-pN-D1x"/>
+                            <constraint firstItem="bu6-fY-tHQ" firstAttribute="leading" secondItem="Nsa-5B-NkW" secondAttribute="trailing" constant="2" id="O4a-EN-s6J"/>
+                            <constraint firstItem="Nsa-5B-NkW" firstAttribute="top" secondItem="3la-3L-Q4J" secondAttribute="bottom" constant="16" id="SJS-X2-YoL"/>
+                            <constraint firstItem="E7O-W5-SzB" firstAttribute="top" secondItem="Nsa-5B-NkW" secondAttribute="bottom" constant="16" id="TgW-6S-Sty"/>
+                            <constraint firstItem="KPI-PZ-7kq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="54" id="WkN-Ul-Cm7"/>
+                            <constraint firstItem="3la-3L-Q4J" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="b6s-6m-tVz"/>
+                            <constraint firstItem="Pak-F9-7rT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bpJ-dc-13N"/>
+                            <constraint firstItem="h0P-uK-MMg" firstAttribute="top" secondItem="KPI-PZ-7kq" secondAttribute="bottom" constant="16" id="cH4-li-dCT"/>
+                            <constraint firstItem="Nsa-5B-NkW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="dYT-e3-qXL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bu6-fY-tHQ" secondAttribute="trailing" id="fmI-DB-zP2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="E7O-W5-SzB" secondAttribute="trailing" id="guB-lg-bqo"/>
+                            <constraint firstItem="E7O-W5-SzB" firstAttribute="leading" secondItem="y76-9X-k46" secondAttribute="trailing" constant="2" id="hxH-ZP-g5A"/>
+                            <constraint firstItem="3la-3L-Q4J" firstAttribute="top" secondItem="KPI-PZ-7kq" secondAttribute="bottom" constant="16" id="pvk-zS-2uQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KPI-PZ-7kq" secondAttribute="trailing" id="uOP-tg-pq4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="contactTitleLabel" destination="y76-9X-k46" id="xm3-PE-cS2"/>
+                        <outlet property="contactValueLabel" destination="E7O-W5-SzB" id="zTI-Pt-0cL"/>
+                        <outlet property="courseTitleLabel" destination="3la-3L-Q4J" id="bB3-HX-CDX"/>
+                        <outlet property="courseValueLabel" destination="h0P-uK-MMg" id="dBy-pn-6tG"/>
+                        <outlet property="durationTitleLabel" destination="Nsa-5B-NkW" id="VSH-cR-Lum"/>
+                        <outlet property="durationValueLabel" destination="bu6-fY-tHQ" id="tNl-bm-ecB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135.38461538461539" y="3.5545023696682461"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
